@@ -111,8 +111,6 @@ int main(int argc, char** argv) {
   }
   
 
-  //THIS IS NOT WORKING, FIX IT.
-
   float *vector3 = (float *)malloc(sizeof(float) * toCalcL2);
   assert(vector3 != NULL);
   float yi = ylast; 
